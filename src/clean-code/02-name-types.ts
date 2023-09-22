@@ -6,14 +6,14 @@
     const serverIp = '123.123.123.123';
 
     // Listado de usuarios
-    const userList = [
+    const users = [
         { id: 1, email: 'fernando@google.com' },
         { id: 2, email: 'juan@google.com' },
         { id: 3, email: 'melissa@google.com' },
     ];
 
     // Listado de emails de los usuarios
-    const userEmails = userList.map((u) => u.email);
+    const userEmails = users.map((user) => user.email);
 
     // Variables booleanas de un video juego
     const canJump = false;
