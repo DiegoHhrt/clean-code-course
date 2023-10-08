@@ -16,3 +16,9 @@ yarn dev
 ó
 npm run dev
 ```
+
+
+wget https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/38/Everything/x86_64/os/Packages/d/dnf-4.8.0-1.fc38.noarch.rpm
+wget https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/38/Everything/x86_64/os/Packages/d/dnf-conf-4.8.0-1.fc38.noarch.rpm
+wget https://download-ib01.fedoraproject.org/pub/fedora/linux/releases/38/Everything/x86_64/os/Packages/d/dnf-data-4.8.0-1.fc38.noarch.rpm
+sudo rpm -ivh dnf*.rpm
